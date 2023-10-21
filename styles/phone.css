@@ -1,0 +1,242 @@
+@media screen and (max-width: 800px) {
+    
+header{
+    height: 50px;
+}
+.logo{
+        font-size: 25px;
+        padding-top: 12px;
+        padding-left: 15px;
+    }
+.logo span{
+        font-size: 30px;
+}
+    
+.nav-items{
+    padding-top: 20px;
+    font-size: 18px;  
+    padding-right: 20px;
+}
+.nav-items a{
+    padding:  8px;
+}
+.project-heading{
+    padding: 20px 0;
+}
+.cards{
+    margin-top: 0px;
+}
+.project-btn{
+    padding: 8px;
+    font-size: 10px;
+}
+.about-page{
+    margin-bottom: 0px;
+}
+
+.about-heading{
+    padding: 20px 0;
+}
+.about-text{
+    font-size: 15px;
+    padding: 10px 0;
+}
+.about-card .name{
+    padding: 10px 0;
+    font-size: 18px;
+}
+.about-card .work{
+    padding-bottom: 10px ;
+    font-size: 15px;
+} 
+.about-card .description{
+    padding-bottom: 10px ;
+    font-size: 12px;
+}
+.about-card .about-btn{
+    padding: 5px 0;
+    font-size: 15px;
+}
+.contact-page{
+    margin:  0;
+}
+.contact-page button{
+    font-size: 17px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+footer{
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 600px){
+    .logo{
+            font-size: 18px;
+            padding-top: 8px;
+            padding-left: 10px;
+        }
+    .logo span{
+            font-size: 20px;
+    }
+        
+    .nav-items{
+        padding-top: 15px;
+        font-size: 15px;  
+        padding-right: 15px;
+    }
+    .nav-items a{
+        padding:  6px;
+    }
+    .home-text p{
+        font-size: 30px;
+    }
+    .home-text p span{
+        font-size: 33px;
+    }
+    .project-heading{
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    .cards{
+        display: flex;
+
+    }
+    .project-card-1{
+        width: 100%;
+        margin: 3px;
+    }
+    .project-card-2{
+        width: 100%;
+        margin: 3px;
+    }
+    .project-card-3{
+        width: 100%;
+        margin: 3px;
+    }
+    .project-card-4{
+        width: 100%;
+        margin: 3px;
+    }
+    .project-card-5{
+        width: 100%;
+        margin: 3px;
+    }
+    .project-card-6{
+        width: 100%;
+        margin: 3px;
+    }
+    .project-card-7{
+        width: 100%;
+        margin: 3px;
+    }
+    .project-card-8{
+        width: 100%;
+        margin: 3px;
+    }
+    .project-btn{
+        padding: 6px;
+        font-size: 8px;
+    }
+    .about-heading{
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    .about-text{
+        font-size: 11px;
+        padding: 8px 0;
+    }
+    .about-card{
+        width: 100%;
+    }
+    .about-card .name{
+        padding: 8px 0;
+        font-size: 14px;
+    }
+    .about-card .work{
+        padding-bottom: 8px ;
+        font-size: 11px;
+    } 
+    .about-card .description{
+        padding-bottom: 8px ;
+        font-size: 10px;
+    }
+    .about-card .about-btn{
+        padding: 3px 0;
+        font-size: 11px;
+    }
+    .contact-heading{
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .contact-page button{
+        font-size: 15px;
+        padding: 8px;
+        margin: 8px 0;
+    }
+    footer{
+        font-size: 12px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    .logo{
+            font-size: 18px;
+            padding-top: 8px;
+            padding-left: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    .logo span{
+            font-size: 20px;
+    } 
+    .nav-items{
+        display: none;
+    }
+    .home-text p{
+        font-size: 25px;
+    }
+    .home-text p span{
+        font-size: 30px;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* width: 40%; */
+        margin: auto;
+
+    }
+    .project-heading{
+        text-align: center;
+    }
+    .project-btn{
+        padding: 7px;
+        font-size: 10px;
+    }
+    .about-heading{
+        text-align: center;
+    }
+    .about-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-page button{
+        font-size: 12px;
+        padding: 8px;
+        margin: 8px 0;
+    }
+    footer{
+        font-size: 11px;
+    }
+    
+}
